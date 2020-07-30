@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Proza Libre', sans-serif;
+    text-align: justify;
+}
+.container{
+    width: 100%
+}
+
+.banner{
+    background-image: url('./images/banner.jpeg');
+    width: 100%;
+    height: 400px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.banner-title{
+    color:white;
+    font-size: 45px;
+    letter-spacing: 2px;
+    margin-bottom: 30px;
+}
+
+.banner-subtitle{
+    color:white;
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+
+.card{
+    width: 75%;
+    margin: 0 auto;
+}
+
+.card-title{
+    margin: 20px 0;
+    color: #b1b5b2;
+}
+
+.link-abtme{
+    text-decoration: none;
+    color: #b1b5b2;
+    display: inline-block;
+    margin-top: 20px;
+    transition: 200ms;
+}
+
+.link-abtme:hover{
+    background-color: #e9f5a4;
+    color:black
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .banner-title{
+    color:white;
+    font-size: 40px;
+    letter-spacing: 2px;
+    margin-bottom: 30px;
+  }
+  .card{
+    width: 75%;
+    margin: 0 auto;
+   }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .banner-title{
+    color:white;
+    font-size: 35px;
+    letter-spacing: 2px;
+    margin-bottom: 30px;
+  }
+  .card{
+    width: 75%;
+    margin: 0 auto;
+   }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .banner-title{
+    color:white;
+    font-size: 30px;
+    letter-spacing: 2px;
+    margin-bottom: 30px;
+  }
+  .card{
+    width: 75%;
+    margin: 0 auto;
+   }
+}
